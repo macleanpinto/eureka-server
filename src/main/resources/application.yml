@@ -1,7 +1,8 @@
 eureka:
-       client:
-              registerWithEureka: false
-              fetchRegistry: false
-      
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    prefer-ip-address: false
 server:
-       port: 8090
+  port: 9090
