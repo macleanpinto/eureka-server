@@ -2,7 +2,7 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-  instance:
-    prefer-ip-address: false
+    service-url:
+      defaultZone: https://eureka-server-registry.herokuapp.com/
 server:
   port: 9090
